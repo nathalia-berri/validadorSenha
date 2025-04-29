@@ -40,24 +40,24 @@ Controle de fluxo:
    Fim  
 
 # Destrinchando o loop de pontos de validador de senha 
-   Criado o array (lista) chamada verificacoes.
-      const verificacoes = [
-         this.senha.contemMaiuscula(), 
-         this.senha.contemNumero(), 
-         this.senha.contemEspecial()
-      ];
-   Ela guarda o resultado das funções que testam a senha:
-   -> this.senha.contemMaiuscula() → retorna true se tem letra maiúscula
-   -> this.senha.contemNumero() → retorna true se tem número
-   -> this.senha.contemEspecial() → retorna true se tem caractere especial
+   Criado o array (lista) chamada verificacoes.  
+      const verificacoes = [  
+         this.senha.contemMaiuscula(),   
+         this.senha.contemNumero(),   
+         this.senha.contemEspecial()  
+      ];  
+   Ela guarda o resultado das funções que testam a senha:  
+   -> this.senha.contemMaiuscula() → retorna true se tem letra maiúscula  
+   -> this.senha.contemNumero() → retorna true se tem número  
+   -> this.senha.contemEspecial() → retorna true se tem caractere especial  
 
-   Para passar pelo loop para somar pontos conforme requisitos:
-      for (let i = 0; i < verificacoes.length; i++) 
-   onde:
-   -> i = 0 → começa no primeiro item do array
-   -> Continua enquanto i for menor que o tamanho do array (verificacoes.length)
-   -> A cada volta (i++), aumenta 1 no i, passando para o próximo item
-   Ou seja, o loop vai percorrer todos os valores dentro do array verificacoes
+   Para passar pelo loop para somar pontos conforme requisitos:  
+      for (let i = 0; i < verificacoes.length; i++)   
+   onde:  
+   -> i = 0 → começa no primeiro item do array  
+   -> Continua enquanto i for menor que o tamanho do array (verificacoes.length)  
+   -> A cada volta (i++), aumenta 1 no i, passando para o próximo item  
+   Ou seja, o loop vai percorrer todos os valores dentro do array verificacoes  
 
 # Destrinchando a função principal que executa o programa
    A função main() é onde o programa começa. Ela cria uma interface para ler a senha do usuário no terminal com readline. O usuário digita a senha e, então, o programa verifica se a senha atende aos requisitos (tamanho, maiúsculas, números, etc.). Se for válida, classifica a força da senha e mostra no terminal. No final, a interface é fechada com rl.close(). O programa começa a rodar quando main() é chamado no final do código.
