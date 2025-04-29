@@ -4,15 +4,15 @@ Validador de senhas em Node.js que verifica se a senha digitada possui no mínim
 # REQUISITOS ATENDIDOS
   2 classes e 7 métodos: 
   - class Senha: Representa a senha que será validada.
-    métodos:
+    Métodos:
     - constructor(valor): Inicializa a classe com o valor da senha e armazena esse valor no objeto
     - tamanho(): Retorna o tamanho da senha
     - contemMaiuscula(): Verifica se a senha contém pelo menos uma letra maiúscula
     - contemNumero(): Verifica se a senha contém pelo menos um número
     - contemEspecial(): Verifica se a senha contém pelo menos um caractere especial
 
-- class ValidadorSenha: Contém os métodos que validam a senha (se contém maiúsculas, números, caracteres especiais, etc.).
-  métodos:
+ - class ValidadorSenha: Contém os métodos que validam a senha (se contém maiúsculas, números, caracteres especiais, etc.).
+  Métodos:
   - constructor(senha): Inicializa a classe com um objeto da classe Senha (a senha que será validada)
   - validarRequisitos(): Valida se a senha atende aos requisitos mínimos (tamanho, maiúscula, número e caractere especial). Retorna true se a senha for válida, ou false caso contrário
 
