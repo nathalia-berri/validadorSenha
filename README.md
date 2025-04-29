@@ -41,11 +41,11 @@ Controle de fluxo:
 
 # Destrinchando o loop de pontos de validador de senha 
    Criado o array (lista) chamada verificacoes.  
-      const verificacoes = [  
-         this.senha.contemMaiuscula(),   
-         this.senha.contemNumero(),   
-         this.senha.contemEspecial()  
-      ];  
+        const verificacoes = [  
+           this.senha.contemMaiuscula(),   
+           this.senha.contemNumero(),   
+           this.senha.contemEspecial()  
+        ];  
    Ela guarda o resultado das funções que testam a senha:  
    -> this.senha.contemMaiuscula() → retorna true se tem letra maiúscula  
    -> this.senha.contemNumero() → retorna true se tem número  
