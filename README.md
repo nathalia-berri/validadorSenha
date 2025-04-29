@@ -24,20 +24,20 @@ Controle de fluxo:
    - if: Dentro do for (loop), verifica se cada teste (contemMaiuscula, contemNumero, contemEspecial) passou para somar pontos
 
 # FLUXO DE FUNCIONAMENTO:
-   Usuário digita uma senha
-   ↓
-   Classe Senha é criada com a senha digitada
-   ↓
-   ValidadorSenha valida os requisitos:
-      - Tem 8 caracteres?
-      - Tem letra maiúscula?
-      - Tem número?
-      - Tem caractere especial?
-   ↓
-   Se OK → Mostra "✅ Senha válida"
-   Se FALHOU → Mostra o erro e "⚠️ Senha inválida"
-   ↓
-   Fim
+   Usuário digita uma senha  
+   ↓  
+   Classe Senha é criada com a senha digitada  
+   ↓  
+   ValidadorSenha valida os requisitos:  
+      - Tem 8 caracteres?  
+      - Tem letra maiúscula?  
+      - Tem número?  
+      - Tem caractere especial?  
+   ↓  
+   Se OK → Mostra "✅ Senha válida"  
+   Se FALHOU → Mostra o erro e "⚠️ Senha inválida"  
+   ↓  
+   Fim  
 
 # Destrinchando o loop de pontos de validador de senha 
    Criado o array (lista) chamada verificacoes.
